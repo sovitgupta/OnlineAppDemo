@@ -1,8 +1,5 @@
 package com.demo.onlineapp;
 
-import java.util.HashMap;
-import java.util.List;
-
 public class TaxCalculator {
 
 	
@@ -11,9 +8,9 @@ public class TaxCalculator {
 		//String category = prodDetails.toString();
 		double taxAmt=0.0;
 		
-		if(category == "A")
+		if(category.equals("A"))
 			taxAmt= 0.1 * amount;
-		else if(category =="B")
+		else if(category.equals("B"))
 			taxAmt= 0.2*amount;
 		
 		return Math.round(taxAmt*100.0)/100.0;

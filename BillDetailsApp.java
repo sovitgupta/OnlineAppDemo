@@ -1,11 +1,8 @@
 package com.demo.onlineapp;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Random;
-import java.util.Scanner;
 
 public class BillDetailsApp {
 
